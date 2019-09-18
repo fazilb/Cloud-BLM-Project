@@ -603,7 +603,11 @@ public class CloudBLM extends ExtentReport {
 
 		@Test(priority = 5)
 		public void SearchProject() throws Exception {
-			try {			
+			try {	
+			
+			// Select the Card View
+			driver.findElement(By.xpath("//li[@blmtooltip='Card View']")).click();
+			Thread.sleep(2000);
 			// Search the project
 			driver.findElement(By.id("facog")).click();
 			Thread.sleep(2000);
