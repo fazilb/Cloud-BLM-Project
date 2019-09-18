@@ -1859,13 +1859,6 @@ public class CloudBLM extends ExtentReport {
 			WebElement SearchIssues = driver.findElement(By.xpath("//h2[@class='card-item-title']"));
 			System.out.println(SearchIssues.getText());
 			Thread.sleep(2000);
-			
-	//		driver.findElement(By.xpath("//span[text()='STANDALONE ISSU...']")).click();  
-	        Thread.sleep(2000);
-	       
-	  //    WebElement StandaloneIssue = driver.findElement(By.xpath("//h5[text()='Standalone']"));
-	//		System.out.println(StandaloneIssue.getText());
-			Thread.sleep(2000);
 			  
 		 // Cancel the Manage issue
 	//	   driver.findElement(By.xpath("//span[text()='Cancel']")).click();
