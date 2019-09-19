@@ -836,7 +836,7 @@ public class CloudBLM extends ExtentReport {
 			try {
 				
 			// click the Team buton in project info page
-			driver.findElement(By.xpath("//*[text()=' Team']")).click();
+			driver.findElement(By.xpath("//a[text()='Team']")).click();
 			Thread.sleep(3000);
 			logger.info("Project Info Team - click the Team buton in project info page");
 			
