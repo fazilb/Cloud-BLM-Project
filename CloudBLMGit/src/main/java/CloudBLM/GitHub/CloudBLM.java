@@ -1602,7 +1602,7 @@ public class CloudBLM extends ExtentReport {
 			logger.info("Create Issue - Get the Instance property");		
 			
 			// Click on the issue button on Property window
-			WebElement element = driver.findElement(By.xpath("//i[@class='icon-issue-c text-danger instanceHover pointer float-right ng-star-inserted']"));
+			WebElement element = driver.findElement(By.xpath("//i[@blmtooltip='Create']"));
 			Thread.sleep(2000);
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			js.executeScript("arguments[0].click();", element);
